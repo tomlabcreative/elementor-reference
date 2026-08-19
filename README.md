@@ -10,6 +10,12 @@ Elementor. When generating beats hand-building, the WXR import technique that
 creates complete Elementor pages in one go, the JSON traps that fail silently,
 the checks worth automating, and the content rules that stop copy going missing.
 
+**[SEO-PAGES-PROCESS.md](SEO-PAGES-PROCESS.md)** — the order of operations for
+migrating an existing site's SEO content into a new Elementor design: scrape,
+reconcile against the client's own copy, build one page by hand, generate the
+rest, check coverage, emit WXR, import. The playbook above covers the traps;
+this one covers the sequence.
+
 **[LOTTIE-ICON-PLAYBOOK.md](LOTTIE-ICON-PLAYBOOK.md)** — animated icon sets
 generated as Lottie JSON. How to measure a reference set instead of matching it
 by eye (including the layer-scale trap that makes stroke widths lie), what
